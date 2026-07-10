@@ -25,6 +25,7 @@ nav {
 
     list-style: none;
 }
+
 .menu a {
     text-decoration: none;
     color: #575757;
@@ -43,6 +44,7 @@ nav {
     padding: 8px;
     cursor: pointer;
 }
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/banner.jpg");
     background-size: cover;
@@ -68,11 +70,13 @@ header {
 .hero-content em {
     font-style: italic;
 }
+
 .hero-content p {
     margin: 30px 0;
     font-size: 20px;
     line-height: 1.6;
 }
+
 .speakers {
     padding: 80px 60px;
 }
@@ -112,4 +116,130 @@ header {
 .speaker-info p {
     color: gray;
     font-size: 14px;
+}
+
+/* Pricing Section */
+
+.pricing {
+    padding: 100px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.pricing-subtitle {
+    text-align: center;
+    color: #6b7280;
+    margin-bottom: 60px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.pricing-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 30px;
+    background: #fff;
+}
+
+.plan {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6b7280;
+    letter-spacing: 1px;
+}
+
+.pricing-card h3 {
+    font-size: 48px;
+    margin: 10px 0 5px;
+    color: #1f2937;
+}
+
+.price-text {
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.pricing-card hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 20px 0;
+}
+.pricing-card ul {
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.pricing-card ul li {
+    margin-bottom: 12px;
+    color: #374151;
+}
+
+.pricing-card button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Standard */
+
+.standard-btn {
+    border: 2px solid #2954e8;
+    background: white;
+    color: #2954e8;
+}
+
+/* Featured */
+
+.featured {
+    background: #101b2d;
+    color: white;
+}
+
+.featured h3,
+.featured .plan,
+.featured .price-text,
+.featured li {
+    color: white;
+}
+
+.featured hr {
+    border-top: 1px solid rgba(255, 255, 255, .15);
+}
+
+.pro-btn {
+    background: #2954e8;
+    color: white;
+    border: none;
+}
+
+/* Team */
+
+.team-btn {
+    background: white;
+    color: #111827;
+    border: 2px solid #111827;
+}
+
+.standard-btn:hover,
+.pro-btn:hover,
+.team-btn:hover {
+    opacity: .9;
 }
