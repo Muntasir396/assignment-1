@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 20px 90px;
+    height: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu li {
+    margin-right: 50px;
+
+    list-style: none;
+}
+.menu a {
+    text-decoration: none;
+    color: #575757;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: brown;
+}
+
+.blue-btn {
+    background-color: #2954e8;
+    color: white;
+    border-radius: 12%;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
