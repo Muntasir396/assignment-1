@@ -43,3 +43,33 @@ nav {
     padding: 8px;
     cursor: pointer;
 }
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    width: 800px;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.hero-content em {
+    font-style: italic;
+}
+.hero-content p {
+    margin: 30px 0;
+    font-size: 20px;
+    line-height: 1.6;
+}
